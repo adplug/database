@@ -1,0 +1,15 @@
+Differences between version 2003-03-18 and 2006-07-06
+-----------------------------------------------------
+Added Clockspeed records for the IMF music files of the following
+Apogee games:
+
+Blake Stone - Aliens of Gold
+Blake Stone - Planet Strike
+Body Count
+Corridor 7
+Spear of Destiny
+Wolfenstein 3D
+
+These additions were necessary in order to support seamless upgrades
+from versions of the AdPlug library prior to 2.0, which had a
+different default clockspeed rate for IMF files.

@@ -1,0 +1,25 @@
+Official AdPlug Database
+------------------------
+The official AdPlug database is the authoritative source for AdPlug to
+get additional, essential replay information about problematic
+files. Some file formats contain too few information about a song for
+it to be correctly replayed by AdPlug. To counter this, the AdPlug
+database was created.
+
+The official AdPlug database at one day should contain the information
+needed about all problematic files. If you got a problematic file
+that is not covered in this database, please file a bug report against
+the database and include either the problematic file itself or the
+corresponding database entry.
+
+Installation instructions
+-------------------------
+Copy the file 'adplug.db' into a directory, where it can reside
+permanently and configure your AdPlug frontend to its location. UNIX
+clients usually come pre-configured with '$HOME/.adplug' as the
+directory to put the file into. The Winamp and DOS frontends usually
+look in their installation directories for the file, by default.
+
+License
+-------
+The official AdPlug database is in the public domain.
